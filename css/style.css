@@ -583,6 +583,7 @@ a {
 	.popular__cards {
 		display: flex;
 		justify-content: space-between;
+		gap: 14px;
 	}
 
 	.popular__cards a {
