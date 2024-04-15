@@ -17,15 +17,25 @@
 
 <body>
     <div class="main__container">
+
+        <!-- HEADER -->
+
         <header class="appBar">
-            <a href="./index.html" class="appBar__link" title="Accueil"><img src="./images/logo/Booki.png"
-                    alt="logo-Booki" class="appBar__logo"></a>
+            <a href="./index.html" class="appBar__link" title="Accueil">
+                <img src="./images/logo/Booki.png" alt="logo-Booki" class="appBar__logo">
+            </a>
             <nav class="appBar__nav">
                 <a href="#accommodations" class="appBar__navItem">Hébergements</a>
                 <a href="#activities" class="appBar__navItem">Activités</a>
             </nav>
         </header>
+
+        <!-- MAIN -->
+
         <main>
+
+            <!-- SEARCH -->
+
             <section class="appSearch">
                 <h1 class="primary__title">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
@@ -36,33 +46,55 @@
                     <input type="text" name="search" id="search" class="search__input" value="Marseille, France"
                         title="Chercher">
                     <button type="submit" title="Chercher" class="search__btn">Rechercher</button>
-                    <button type="submit" title="Chercher" class="search__mobile"><i
-                            class="fa-solid fa-magnifying-glass"></i></button>
+                    <button type="submit" title="Chercher" class="search__mobile">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </form>
+
+                <!-- FILTERS -->
+
                 <div class="filters">
                     <h2 class="filters__title">Filtres</h2>
                     <div class="filters__btns">
                         <button class="filters__btn" type="submit">
-                            <i class="fa-solid fa-money-bill-wave"></i>Economique</button>
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            Economique
+                        </button>
                         <button class="filters__btn" type="submit">
-                            <i class="fa-solid fa-person"></i>Familial</button>
+                            <i class="fa-solid fa-person"></i>
+                            Familial
+                        </button>
                         <button class="filters__btn" type="submit">
-                            <i class="fa-solid fa-heart"></i>Romantique</button>
+                            <i class="fa-solid fa-heart"></i>
+                            Romantique
+                        </button>
                         <button class="filters__btn" type="submit">
-                            <i class="fa-solid fa-fire"></i>Nos pépites</button>
+                            <i class="fa-solid fa-fire"></i>
+                            Nos pépites
+                        </button>
                     </div>
                 </div>
+
+                <!-- DISPONIBILITY -->
+
                 <div class="disponibility">
                     <i class="fa-solid fa-info"></i>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
+
+            <!-- POPULAR ACCOMMODATIONS -->
+
             <div class="popular__accommodations">
+
+                <!-- ACCOMMODATIONS -->
+
                 <section class="accommodations" id="accommodations">
                     <div class="accommodations__title">
                         <h2 class="section__title">Hébergements à Marseille</h2>
                     </div>
                     <div class="accommodations__cards">
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/fred-kleber.jpg"
@@ -70,7 +102,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Hôtel du port</h3>
-                                        <p class="card__subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 52
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -83,6 +118,7 @@
                                 </div>
                             </article>
                         </a>
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/febrian-zakaria.jpg"
@@ -90,7 +126,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Hôtel chez Amina</h3>
-                                        <p class="card__subtitle">Nuit à partir de 96<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 96
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -103,6 +142,7 @@
                                 </div>
                             </article>
                         </a>
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/reisetopia.jpg"
@@ -110,7 +150,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Hôtel Les mouettes</h3>
-                                        <p class="card__subtitle">Nuit à partir de 76<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 76
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -123,6 +166,7 @@
                                 </div>
                             </article>
                         </a>
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/annie-spratt.jpg"
@@ -130,7 +174,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Hôtel de la mer</h3>
-                                        <p class="card__subtitle">Nuit à partir de 46<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 46
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -143,6 +190,7 @@
                                 </div>
                             </article>
                         </a>
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/marcus-loke.jpg"
@@ -150,7 +198,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Auberge La Canebière</h3>
-                                        <p class="card__subtitle">Nuit à partir de 25<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 25
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -163,6 +214,7 @@
                                 </div>
                             </article>
                         </a>
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/nicate-lee.jpg"
@@ -170,7 +222,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Auberge Le Panier</h3>
-                                        <p class="card__subtitle">Nuit à partir de 23<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 23
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -183,17 +238,22 @@
                                 </div>
                             </article>
                         </a>
+
                     </div>
                     <div class="accommodations__title">
                         <h2 class="section__title">Afficher plus</h2>
                     </div>
                 </section>
+
+                <!-- POPULAR -->
+
                 <section class="popular">
                     <div class="popular__title">
                         <h2 class="section__title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="popular__cards">
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/emile-guillemot.jpg"
@@ -201,7 +261,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Hôtel Le soleil du matin</h3>
-                                        <p class="card__subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 128
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -214,6 +277,7 @@
                                 </div>
                             </article>
                         </a>
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/aw-creative.jpg"
@@ -221,7 +285,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Chambres d’hôtes Au cœur de l’eau</h3>
-                                        <p class="card__subtitle">Nuit à partir de 71<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 71
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -234,6 +301,7 @@
                                 </div>
                             </article>
                         </a>
+
                         <a href="#" class="card__link">
                             <article class="card">
                                 <img class="card__img" src="./images/hebergements/febrian-zakaria2.jpg"
@@ -241,7 +309,10 @@
                                 <div class="card__content">
                                     <div class="card__txt">
                                         <h3 class="card__title">Hôtel Bleu et Blanc</h3>
-                                        <p class="card__subtitle">Nuit à partir de 68<span class="euro">€</span></p>
+                                        <p class="card__subtitle">
+                                            Nuit à partir de 68
+                                            <span class="euro">€</span>
+                                        </p>
                                     </div>
                                     <div class="card__rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -254,14 +325,19 @@
                                 </div>
                             </article>
                         </a>
+
                     </div>
                 </section>
             </div>
+
+            <!-- ACTIVITIES -->
+
             <section class="activities" id="activities">
                 <div class="activities__title">
                     <h2 class="section__title">Activités à Marseille</h2>
                 </div>
                 <div class="activities__block">
+
                     <a href="#" class="card__link">
                         <article class="card">
                             <img class="card__img" src="./images/activites/reno-laithienne.jpg"
@@ -273,6 +349,7 @@
                             </div>
                         </article>
                     </a>
+
                     <a href="#" class="card__link">
                         <article class="card">
                             <img class="card__img" src="./images/activites/paul-hermann.jpg"
@@ -284,6 +361,7 @@
                             </div>
                         </article>
                     </a>
+
                     <a href="#" class="card__link">
                         <article class="card">
                             <img class="card__img" src="./images/activites/kilyan-sockalingum.jpg"
@@ -295,6 +373,7 @@
                             </div>
                         </article>
                     </a>
+
                     <a href="#" class="card__link">
                         <article class="card">
                             <img class="card__img" src="./images/activites/florian-wehde.jpg"
@@ -306,32 +385,54 @@
                             </div>
                         </article>
                     </a>
+
                 </div>
             </section>
         </main>
+
+        <!-- FOOTER -->
+
         <footer class="footer">
+
             <section class="footer__section">
                 <h3 class="section__title">À propos</h3>
                 <ul>
-                    <li><a class="footer__link" href="#">Fonctionnement du site</a></li>
-                    <li><a class="footer__link" href="#">Conditions générales</a></li>
-                    <li><a class="footer__link" href="#">Données et confidentialité</a></li>
+                    <li>
+                        <a class="footer__link" href="#">Fonctionnement du site</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Conditions générales</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Données et confidentialité</a>
+                    </li>
                 </ul>
             </section>
+
             <section class="footer__section">
                 <h3 class="section__title">Nos hébergements</h3>
                 <ul>
-                    <li><a class="footer__link" href="#">Charte qualité</a></li>
-                    <li><a class="footer__link" href="#">Proposer votre hôtel</a></li>
+                    <li>
+                        <a class="footer__link" href="#">Charte qualité</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Proposer votre hôtel</a>
+                    </li>
                 </ul>
             </section>
+
             <section class="footer__section">
                 <h3 class="section__title">Assistance</h3>
                 <ul>
-                    <li><a class="footer__link" href="#">Centre d'aide</a></li>
-                    <li><a class="footer__link" href="#">Nous contacter</a></li>
+                    <li>
+                        <a class="footer__link" href="#">Centre d'aide</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Nous contacter</a>
+                    </li>
                 </ul>
             </section>
+
         </footer>
     </div>
 </body>

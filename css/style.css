@@ -1,4 +1,5 @@
 /****** General ***********/
+
 * {
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility;
@@ -63,6 +64,7 @@ a {
 }
 
 /****** Header ***********/
+
 .appBar {
 	display: flex;
 	flex-direction: row;
@@ -98,6 +100,7 @@ a {
 }
 
 /****** appSearch ***********/
+
 .appSearch {
 	margin: 30px 0 20px 0;
 }
@@ -215,6 +218,7 @@ a {
 }
 
 /****** Accommodations ***********/
+
 .accommodations {
 	width: 65%;
 }
@@ -283,6 +287,7 @@ a {
 }
 
 /****** Popular accommodations ***********/
+
 .popular__accommodations {
 	display: flex;
 	justify-content: space-between;
@@ -295,6 +300,7 @@ a {
 }
 
 /****** Popular ***********/
+
 .popular {
 	width: 32%;
 }
@@ -344,6 +350,7 @@ a {
 }
 
 /****** Activities ***********/
+
 .activities {
 	padding: 30px;
 }
@@ -389,6 +396,7 @@ a {
 }
 
 /****** Footer ***********/
+
 .footer {
 	padding: 30px;
 	background-color: var(--main-bg-color);
@@ -428,6 +436,7 @@ a {
 
 /* Body responsive */
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.main__container {
 		padding: 0;
@@ -436,6 +445,7 @@ a {
 
 /* appBar responsive */
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.appBar {
 		flex-direction: column;
@@ -468,6 +478,7 @@ a {
 
 /* appSearch responsive */
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
 	.filters {
 		flex-direction: column;
@@ -480,6 +491,7 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.appSearch {
 		padding: 0 20px;
@@ -537,6 +549,7 @@ a {
 
 /* Popular accommodations responsive */
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
 	.popular__accommodations {
 		flex-direction: column;
@@ -544,6 +557,7 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.popular__accommodations section {
 		border-radius: 0;
@@ -556,6 +570,7 @@ a {
 
 /* Accommodations responsive */
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
 	.accommodations {
 		width: 100%;
@@ -563,6 +578,7 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.accommodations {
 		order: 2;
@@ -574,6 +590,7 @@ a {
 }
 
 /* Popular responsive */
+
 @media (max-width: 1024px) {
 	.popular {
 		width: auto;
@@ -592,6 +609,7 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.popular {
 		order: 1;
@@ -610,6 +628,7 @@ a {
 
 /* Activites responsive */
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
 	.activities {
 		height: 390px;
@@ -626,6 +645,7 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.activities {
 		height: auto;
@@ -648,6 +668,7 @@ a {
 
 /* Footer responsive */
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
 	.footer {
 		flex-direction: column;
