@@ -152,7 +152,6 @@ a {
 	padding: 0 20px;
 	font-size: 18px;
 	font-weight: 700;
-	cursor: pointer;
 }
 
 .search__mobile {
@@ -430,7 +429,6 @@ a {
 }
 
 .footer__link:hover {
-	cursor: pointer;
 	text-decoration: underline;
 }
 
